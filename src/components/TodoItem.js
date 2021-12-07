@@ -23,6 +23,10 @@ export default class TodoItem extends Component {
           this.setState({editing:false})
       }
   }
+
+  componentWillUnmount(){
+    console.log('Cleaning up ...')
+  }
   render() {
     const { id, completed, title } = this.props.todo;
     let viewMode = {};
