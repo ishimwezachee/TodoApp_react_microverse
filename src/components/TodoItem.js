@@ -18,6 +18,11 @@ export default class TodoItem extends Component {
       editing: true,
     });
   };
+  handleUpdateDone=(event)=>{
+      if(event.key ==="Enter"){
+          this.setState({editing:false})
+      }
+  }
   render() {
     const { id, completed, title } = this.props.todo;
     let viewMode = {};
@@ -45,9 +50,12 @@ export default class TodoItem extends Component {
         style={editMode} 
         className={styles.textInput} 
         value={title}
-        onChange={e=>console.log(e.target.value,id)}
+        onChange={e=>{
+            this.props.setUpdate(e.target.value,id)
+        }}
+        onKeyDown={this.handleUpdateDone}
         />
       </li>
     );
   }
-}
+}  
