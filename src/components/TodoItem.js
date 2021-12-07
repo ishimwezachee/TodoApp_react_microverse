@@ -9,22 +9,44 @@ const completedStyle = {
 };
 
 export default class TodoItem extends Component {
+  state = {
+    editing: false,
+  };
+
+  handleEditing = () => {
+    this.setState({
+      editing: true,
+    });
+  };
   render() {
-      const {id, completed, title} = this.props.todo
+    const { id, completed, title } = this.props.todo;
+    let viewMode = {};
+    let editMode = {};
+// toggle view vs edit based on true or false;;
+    if (this.state.editing) {
+      viewMode.display = "none";
+    } else {
+      editMode.display = "none";
+    }
     return (
       <li className={styles.item}>
-        <input
-          type="checkbox"
-          className={styles.checkbox}
-          checked={completed}
-          onChange={() => this.props.handleChangeProps(id)}
+        <div onDoubleClick={this.handleEditing} style={viewMode}>
+          <input
+            type="checkbox"
+            className={styles.checkbox}
+            checked={completed}
+            onChange={() => this.props.handleChangeProps(id)}
+          />
+          <button onClick={() => this.props.deleteTodoProps(id)}>Delete</button>
+          <span style={completed ? completedStyle : null}>{title}</span>
+        </div>
+        <input 
+        type="text" 
+        style={editMode} 
+        className={styles.textInput} 
+        value={title}
+        onChange={e=>console.log(e.target.value,id)}
         />
-        <button onClick={() => this.props.deleteTodoProps(id)}>
-          Delete
-        </button>
-        <span style={completed ? completedStyle : null}>
-          {title}
-        </span>
       </li>
     );
   }
