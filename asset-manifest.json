@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/ishimwezachee/TodoApp_react_microverse/static/css/main.2bed54a3.chunk.css",
-    "main.js": "/ishimwezachee/TodoApp_react_microverse/static/js/main.1f11cf8c.chunk.js",
-    "main.js.map": "/ishimwezachee/TodoApp_react_microverse/static/js/main.1f11cf8c.chunk.js.map",
+    "main.js": "/ishimwezachee/TodoApp_react_microverse/static/js/main.fcac2eb1.chunk.js",
+    "main.js.map": "/ishimwezachee/TodoApp_react_microverse/static/js/main.fcac2eb1.chunk.js.map",
     "runtime-main.js": "/ishimwezachee/TodoApp_react_microverse/static/js/runtime-main.6a9a3e03.js",
     "runtime-main.js.map": "/ishimwezachee/TodoApp_react_microverse/static/js/runtime-main.6a9a3e03.js.map",
-    "static/js/2.790620c7.chunk.js": "/ishimwezachee/TodoApp_react_microverse/static/js/2.790620c7.chunk.js",
-    "static/js/2.790620c7.chunk.js.map": "/ishimwezachee/TodoApp_react_microverse/static/js/2.790620c7.chunk.js.map",
+    "static/js/2.7d6a1958.chunk.js": "/ishimwezachee/TodoApp_react_microverse/static/js/2.7d6a1958.chunk.js",
+    "static/js/2.7d6a1958.chunk.js.map": "/ishimwezachee/TodoApp_react_microverse/static/js/2.7d6a1958.chunk.js.map",
     "index.html": "/ishimwezachee/TodoApp_react_microverse/index.html",
     "static/css/main.2bed54a3.chunk.css.map": "/ishimwezachee/TodoApp_react_microverse/static/css/main.2bed54a3.chunk.css.map",
-    "static/js/2.790620c7.chunk.js.LICENSE.txt": "/ishimwezachee/TodoApp_react_microverse/static/js/2.790620c7.chunk.js.LICENSE.txt"
+    "static/js/2.7d6a1958.chunk.js.LICENSE.txt": "/ishimwezachee/TodoApp_react_microverse/static/js/2.7d6a1958.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6a9a3e03.js",
-    "static/js/2.790620c7.chunk.js",
+    "static/js/2.7d6a1958.chunk.js",
     "static/css/main.2bed54a3.chunk.css",
-    "static/js/main.1f11cf8c.chunk.js"
+    "static/js/main.fcac2eb1.chunk.js"
   ]
 }
