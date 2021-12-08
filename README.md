@@ -1,7 +1,8 @@
 # Module 1: Capstone Project
 
-> We made up Capstone Project with javascript 
-> Our project get data from API and we can send data with another API
+> This a simple to do app that used was build for the purpose of 
+> doing some practice about react class component, functional component
+> use of hooks, Use React routers and use of react Icons. 
 
 ![screenshot](./todoApp.PNG)
 
